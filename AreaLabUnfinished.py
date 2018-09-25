@@ -19,11 +19,16 @@ class MyTest(unittest.TestCase): #using TestCase class from unittest module
         self.assertEqual(circleArea(5),25*math.pi)
         self.assertAlmostEqual(circleArea(10),100*math.pi)
     def testRectArea(self):
-    self.assertEqual(rectangle(50),250*math)
-    
+    self.assertEqual(rectArea(50,2),100)
+    self.assertEqual(rectArea(6,2),18)
     def testTrapArea(self):
     
     def testTriArea(self):
+    
+    #Formula for area of a circle: radius * radius * PI
+    #Formula for area of a rectangle: base * height
+    #Formula for area of a trapezoid: height * (base1 + base2) / 2
+    #Formula for area of a triangle: base * height / 2
     
     
     
